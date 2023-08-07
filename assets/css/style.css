@@ -18,6 +18,8 @@ h6 {
 
 body {
     font-family: "lato";
+     left: auto;
+     right: auto;
 }
 
 img {
@@ -141,6 +143,22 @@ header .column_4 {
     font-weight: 400;
     font-family: "lato";
     line-height: 55px;
+    
+}
+.gutters h1{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "lato";
+    line-height: 55px;
+   
+}
+.gutters  {
+    text-align: center;
+
+}
+.gutters  h2 p{
+    position: absolute;
+
 }
 
 .hdr_rgt img {
@@ -170,6 +188,9 @@ header .column_4 {
 .skils_blk {
     display: flex;
     margin-top: 15px;
+}
+.module{
+    margin: right 2px; ;
 }
 
 .skils_blk ul {
@@ -279,7 +300,42 @@ header .column_4 {
     text-decoration: none;
     margin-top: 15px;
 }
+.case_btn{
+    border: 2px solid #000;
+    color: #000;
+    display: block;
+    border-radius: 5px;
+    width: 180px;
+    padding: 1px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "lato";
+    text-decoration: none;
+    margin-top: 129px;
+}
+.About_btn{
+    border: 2px solid #000;
+    color: #000;
+    display: block;
+    border-radius: 5px;
+    width: 97px;
+    padding: 1px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "lato";
+    text-decoration: none;
+    margin-top:14px;
+    
+}
+.article{
+    margin-right: 60px;
+}
 
+.About_btn a{
+    text-align: center;
+}
 .back_end_blk {
     margin-top: 100px;
 }
@@ -371,6 +427,10 @@ header .column_4 {
     padding: 50px 0 80px;
     overflow: hidden;
 }
+.last{
+    background:  #ffe3db;
+    padding: 2px;
+}
 
 .eductin_block h2 {
     font-size: 33px;
@@ -391,6 +451,10 @@ header .column_4 {
     position: relative;
     left: 25px;
 }
+.patelco{
+    background: #ffe3db;
+    padding: 20px 0;
+}
 
 .eductin_block h3 {
     font-size: 29px;
@@ -399,6 +463,39 @@ header .column_4 {
     color: #0d0c22;
     text-transform: uppercase;
     margin-top: 30px;
+}
+.img_goal4{
+    float: right;
+    padding: 5px;
+    width:500px;
+     height: 271px;
+   
+}
+.img_goal5{
+    float: right;
+    padding: 5px;
+    width:500px;
+     height: 250px
+    }
+    
+ .img_goal6{
+        float: right;
+        padding: 5px;
+        width:500px;
+         height: 250px
+        }
+.secondheader h1{
+    font-size: large;
+    text-align: center;
+}
+.thirdheader h1{
+    text-align: center;
+    font-size: large;
+}
+.fourtheader h1{
+    text-align: center;
+    font-size: large;
+    padding: 15px;
 }
 
 .eductin_block p {
