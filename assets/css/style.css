@@ -285,6 +285,62 @@ header .column_4 {
     right: 60px;
     width: 100%;
 }
+.case_study h2{
+    text-align:center ;
+}
+.case_wrks_rgt{
+    position: relative;
+    top: 50px;
+    right: 40px;
+    width: 40%;
+}
+
+.case_wrks_rgt img{
+    margin-bottom: -55px;
+    
+    width: 360px; ;
+    height: 218px;
+}
+.case_wrks_rgt p{
+    margin-top: 15%;
+    text-align:justify
+;
+}
+.footerlist{
+    margin-top: -35%;
+}
+.case_rt{
+    position: relative;
+    margin-left: 41%;
+    top: -79px;
+    right: 50px;
+    width: 40%;
+}
+.case_rt img{
+    margin-top: -188px;
+    width: 360px; ;
+    height: 218px;
+}
+.case_last_rgt{
+    position: relative;
+    margin-left: 43%;
+    bottom: 238px;
+    left: 388px;
+    width: 40%;
+}
+.case_last{
+    position: relative;
+    margin-left: 43%;
+    bottom: 380px;
+    right: -340px;
+    width: 40%;
+}
+.case_last img{
+    width: 360px; ;
+    height: 218px;
+}
+
+
 
 .view_web_btn {
     border: 2px solid #000;
@@ -300,20 +356,7 @@ header .column_4 {
     text-decoration: none;
     margin-top: 15px;
 }
-.case_btn{
-    border: 2px solid #000;
-    color: #000;
-    display: block;
-    border-radius: 5px;
-    width: 180px;
-    padding: 1px 0;
-    text-align: center;
-    font-size: 20px;
-    font-weight: normal;
-    font-family: "lato";
-    text-decoration: none;
-    margin-top: 129px;
-}
+
 .About_btn{
     border: 2px solid #000;
     color: #000;
@@ -331,6 +374,7 @@ header .column_4 {
 }
 .article{
     margin-right: 60px;
+   
 }
 
 .About_btn a{
@@ -451,12 +495,49 @@ header .column_4 {
     position: relative;
     left: 25px;
 }
-.patelco{
+.case_study h2 span{
+    width: 220px;
+    height: 6px;
+    background: #f2bb16;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    right: 10px;
+}
+.patelco  article{
+    padding: 3px 159px 34px 56px;
+}
+.eductin_block article{
+        padding: 3px 159px 34px 56px;
+}
+.last article{
+    padding: 3px 159px 34px 56px;
+}
+.last{
+    margin: 50px;
+    margin-left: 50px;
     background: #ffe3db;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 
-.eductin_block h3 {
+.patelco{
+    margin: 50px;
+    margin-left: 50px;
+    background: #ffe3db;
+    padding: 50px 0;
+}
+.patelco h1{
+    text-align: left;
+    
+}
+.eductin_block{
+    margin: 70px;
+    margin-left: 70px;
+    background: #ffe3db;
+    padding: 70px 0;
+}
+
+.eductin_block h4 {
     font-size: 29px;
     font-weight: 900;
     font-family: "lato";
@@ -465,24 +546,29 @@ header .column_4 {
     margin-top: 30px;
 }
 .img_goal4{
+    display: flex;
     float: right;
-    padding: 5px;
-    width:500px;
-     height: 271px;
-   
+    padding: 192px;
+    position: relative;
+    top: -100px;
+    width: 500px;
+    height: 271px;
 }
 .img_goal5{
+    display: flex;
     float: right;
-    padding: 5px;
-    width:500px;
-     height: 250px
+    padding: 192px;
+    position: relative;
+    top: -100px;
+    width: 500px;
+    height: 271px;
     }
     
  .img_goal6{
         float: right;
         padding: 5px;
         width:500px;
-         height: 250px
+         height: 300px
         }
 .secondheader h1{
     font-size: large;
@@ -522,13 +608,14 @@ footer {
     width: 100%;
     border: 1px solid #000;
     border-radius: 10px;
-    display: block;
+    display:;
     padding: 20px 0;
     text-align: center;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 400;
     font-family: "lato";
     color: #323232;
+    
     text-decoration: none;
 }
 
@@ -545,6 +632,8 @@ footer {
 
 .email_social {
     float: right;
+    margin-top: -60px;
+    margin-left: 180px;
 }
 
 .email_social h3 {
